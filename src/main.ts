@@ -8,7 +8,7 @@ import {
     INFO_LINE,
     setFailure,
     START_TOKEN
-} from "./util";
+} from "./utils";
 import {StreakData, UserDetailsResponse} from "./types";
 import {getInput} from "@actions/core";
 

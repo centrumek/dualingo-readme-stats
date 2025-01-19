@@ -1,4 +1,5 @@
-# This is a demo of the workflow with user cookies. ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/centrumek/duolingo-readme-stats/duolingo-test-auth.yml?style=flat-square&label=Duolingo%20Stats%20-%20Authenticated)
+# This is a demo of the workflow with user cookies.
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/centrumek/duolingo-readme-stats/duolingo-test-auth.yml?style=flat-square&label=Duolingo%20Stats%20-%20Authenticated)
 
 This file can be your README.md that gets automatically updated.
 
