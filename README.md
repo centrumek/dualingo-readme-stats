@@ -3,7 +3,10 @@
 Automatically add and keep up to date your latest stats from [duolingo.com](https://www.duolingo.com/).
 
 [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/centrumek/duolingo-readme-stats/duolingo-test-noauth.yml?style=flat-square&label=Duolingo%20Stats%20-%20Unauthenticated)](https://github.com/centrumek/duolingo-readme-stats/blob/main/README-DEMO-NOAUTH.md)
+
 [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/centrumek/duolingo-readme-stats/duolingo-test-auth.yml?style=flat-square&label=Duolingo%20Stats%20-%20Authenticated)](https://github.com/centrumek/duolingo-readme-stats/blob/main/README-DEMO-AUTH.md)
+
+## Example
 
 |                                                           Username                                                           |                                                       Day Streak (WET)                                                       |                                                      Total XP                                                      |                                                  XP This Week                                                   |                                                             League                                                              |
 |:----------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|
@@ -43,11 +46,13 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
-      - uses: centrumek/duolingo-readme-stats@main
+      - uses: centrumek/duolingo-readme-stats@v1.0.0
         with:
           DUOLINGO_USER_ID: <Your duolingo.com user ID>
           ADVANCED_TOKEN_JWT: <Your duolingo.com JWT token>
 ```
+
+## Your duolingo.com variables placement
 
 `DUOLINGO_USER_ID` variable can be found in browser DevTools [Fn + F12]
 
